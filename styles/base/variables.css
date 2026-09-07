@@ -19,5 +19,6 @@
     --btn-border-radius: 0.5em;
 
     --box-shadow: 0 0.1em 0.1em rgba(30, 41, 59, 0.1);
+    --box-shadow-down-right: 0.1em 0.1em 0.1em rgba(30, 41, 59, 0.1);
     --box-shadow-up: 0 -0.1em 0.5em rgba(30, 41, 59, 0.1);
 }

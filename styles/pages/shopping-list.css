@@ -139,6 +139,7 @@
         flex-wrap: wrap;
         gap: 0.5em;
         padding-right: 1.5em;
+        overflow: visible;
     }
 
     @media (min-width: 768px) {

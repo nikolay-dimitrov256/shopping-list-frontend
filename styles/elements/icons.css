@@ -25,6 +25,10 @@
     @media (max-width: 767px) {
         display: none;
     }
+
+    & a {
+        display: block;
+    }
 }
 
 .actions-toggle {
@@ -38,5 +42,30 @@
 
     @media (min-width: 768px) {
         display: none;
+    }
+}
+
+.actions.visible {
+    display: block;
+    position: absolute;
+    right: 3em;
+    top: 1em;
+    width: 5em;
+    padding-block: 0.2em;
+    z-index: 10;
+    background-color: #fff;
+    border: 1px solid var(--clr-light-blue-1);
+    box-shadow: var(--box-shadow-down-right);
+
+    & a{
+        padding-block: 0.8em;
+    }
+
+    & a:last-child {
+        margin-bottom: 0;
+    }
+
+    & svg {
+        margin: 0 auto;
     }
 }
