@@ -1,0 +1,42 @@
+.icon-sm {
+    width: 0.8em;
+    height: auto;
+    display: block;
+    stroke-width: 2.5;
+}
+
+.icon-md {
+    width: 1.4em;
+    height: auto;
+    display: block;
+    stroke-width: 2;
+}
+
+.icon-lg {
+    width: 3em;
+    height: auto;
+    display: block;
+}
+
+.actions {
+    display: flex;
+    gap: 1em;
+
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.actions-toggle {
+    @media (max-width: 767px) {
+        position: absolute;
+        align-self: center;
+        right: 0.5rem;
+        margin: auto 0;
+        z-index: 10;
+    }
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
