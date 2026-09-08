@@ -62,5 +62,9 @@
         & svg {
             display: inline;
         }
+
+        &.menu-toggle-checked {
+            bottom: 14em;
+        }
     }
 }
