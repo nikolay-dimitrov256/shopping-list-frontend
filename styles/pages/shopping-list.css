@@ -33,11 +33,16 @@
 .summary {
     display: none;
 
-    
+    @media (min-width: 768px) {
+        display: flex;
+        grid-row: 2 / 3;
+        margin-top: 1em;
+    }
 
     @media (min-width: 1280px) {
         background-color: #fff;
         padding: 1.2em 0.2em;
+        margin-top: 0;
         border-radius: 0.8em;
         box-shadow: var(--box-shadow);
     }
@@ -48,15 +53,15 @@
     align-items: center;
     font-weight: 600;
     line-height: 1;
-    padding-inline: 1em;
+    padding-inline: 0.5em;
     border-right: 1px solid var(--clr-light-blue-2);
 
     &:first-child {
         padding-left: 0;
     }
 
-    @media (min-width: 768px) {
-
+    @media (min-width: 1024px) {
+        padding-inline: 1em;
     }
 
     @media (min-width: 1280px) {
