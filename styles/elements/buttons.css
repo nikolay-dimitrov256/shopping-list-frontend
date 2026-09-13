@@ -32,6 +32,15 @@
     }
 }
 
+.btn-breadcrumb-back {
+    border-radius: 100vh;
+    padding: 0.2em 0.6em;
+    border: none;
+    background-color: var(--clr-light-blue-1);
+    font-weight: 400;
+    margin-top: 1.2em;
+}
+
 .button:hover {
     cursor: pointer;
 }
@@ -45,6 +54,10 @@
     background-color: var(--clr-muted-dark-green);
     border-color: var(--clr-muted-dark-green);
     color: #fff;
+}
+
+.btn-breadcrumb-back:hover {
+    background-color: var(--clr-light-blue-2);
 }
 
 .add-button {
